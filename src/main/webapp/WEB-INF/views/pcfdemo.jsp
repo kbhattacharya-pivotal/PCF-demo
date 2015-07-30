@@ -97,7 +97,7 @@
     <div class="container">
     	<div class="nav-bar">
 	        <div class="logo">
-	          <img src="resources/img/BestRetailInc_Logo.png" alt="Best Retail, Inc.">
+	          <img src="resources/img/BestRetailInc_Logo.png" alt="Euro Retail, Inc.">
 	        </div>
 	        <div class="nav">
 	        	<input type="button" value="Orders Map (EU)" class="activate nav-link" >
