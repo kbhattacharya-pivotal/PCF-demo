@@ -102,16 +102,18 @@
 	        <div class="nav">
 	        	<input type="button" value="Orders Map (EU)" class="activate nav-link" >
 	        	<input type="button" value="Start Data Stream" class="activate nav-link" onclick="startStream();">
+	        	<!-- Reactor Breach!!
 	        	<input type="button" value="Kill App" class="activate nav-link" onclick="killApp();">
+	        	-->
 	        </div>
 	    </div>
 	</div>
 
 	<div id="maincontent" style="overflow-y: scroll;">
 		<div align="center"> 
-		<!-- Show instance details 
+		<!-- Show instance details -->
         <small>Instance hosted at &nbsp;<%=request.getLocalAddr() %>:<%=request.getLocalPort() %></small><br>
-		-->
+		
 		<c:choose>
 			<c:when test="${rabbitURI != null}">
 				<small>Data being streamed from RabbitMQ</small>				
