@@ -102,9 +102,9 @@
 	        <div class="nav">
 	        	<input type="button" value="Orders Map (EU)" class="activate nav-link" >
 	        	<input type="button" value="Start Data Stream" class="activate nav-link" onclick="startStream();">
-	        	<!-- Reactor Breach!! 
+	        	<!-- Reactor Breach!! -->
 	        	<input type="button" value="Kill App" class="activate nav-link" onclick="killApp();">
-	        	-->
+	        	
 	        </div>
 	    </div>
 	</div>
